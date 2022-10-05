@@ -21,7 +21,6 @@ CFLAGS_OPT=-O3
 CFLAGS_DEBUG=-g
 BUILDTYPE=Release
 V=Yes
-PREFIX=/usr/local
 SHARED=-shared
 OBJ=o
 DESTDIR=
