@@ -315,7 +315,7 @@ ifneq ($(EXTRA_LIBRARY),)
 	install -m 644 $(EXTRA_LIBRARY) $(DESTDIR)$(PREFIX)/$(LIBDIR_NAME)
 endif
 
-install: install-static-lib install-shared
+install: install-static
 	@:
 
 ifneq ($(HAVE_GTEST),Yes)
